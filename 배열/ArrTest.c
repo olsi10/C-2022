@@ -10,7 +10,7 @@ int main(void) {
 						{'A', 'B', 'C', 'D', 'E','F','G','\0'},
 						{'A','B','C','D','E','F','G','H','I','\0'} };
 
-	printf("¹è¿­ a\n");
+	printf("ë°°ì—´ a\n");
 
 	for (i = 0; i < sizeof(a); i++) {
 		printf("%c", a[i]);
@@ -18,14 +18,14 @@ int main(void) {
 
 	printf("\n");
 
-	printf("a ¿ª¼ø\n");
+	printf("a ì—­ìˆœ\n");
 	for(i = sizeof(a); i >= 0; i--) {
 		printf("%c", a[i]);
 	}
 
 	printf("\n");
 
-	printf("¹è¿­ b\n");
+	printf("ë°°ì—´ b\n");
 	for (i = 0; i < 5; i++) {
 		for (j = 0; j < 10; j++) {
 			printf("%c", b[i][j]);
@@ -33,7 +33,7 @@ int main(void) {
 		printf("\n");
 	}
 
-	printf("\n¹è¿­ b¿¡¼­ Çà°ú ¿­ÀÌ °°Àº °ª¸¸ Ãâ·ÂÇÏ±â, ³ª¸ÓÁö °ø¹é Ãâ·Â\n");
+	printf("\në°°ì—´ bì—ì„œ í–‰ê³¼ ì—´ì´ ê°™ì€ ê°’ë§Œ ì¶œë ¥í•˜ê¸°, ë‚˜ë¨¸ì§€ ê³µë°± ì¶œë ¥\n");
 	for (i = 0; i < 5; i++) {
 		for (j = 0; j < 10; j++) {
 			if (b[i] == b[j]) {
@@ -48,8 +48,8 @@ int main(void) {
 	}
 
 
-	printf("¹è¿­ b¸¦ ¼¼¸ð ¸ð¾çÀ¸·Î Ãâ·ÂÇÏ±â\n");
-
+	printf("ë°°ì—´ bë¥¼ ì„¸ëª¨ ëª¨ì–‘ìœ¼ë¡œ ì¶œë ¥í•˜ê¸°\n");
+	//ì¶”í›„ ìˆ˜ì • ì˜ˆì • ì•„ì§ì€ ì˜¤ë¥˜
 	for (i = 1; i <= 5; i++) {
 		for (j = 1; j <= 5-i; j++) {
 			printf(" ");
